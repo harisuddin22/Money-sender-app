@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Transfer App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <input type="text" id="receiver" placeholder="Receiver's Info" />
+      <button onclick="sendMoney()">Send</button>
+    </div>
+
+    <div id="amount-container">
+      <img onclick="setAmount(10)" src="img/10.jpg" alt="10" />
+      <img onclick="setAmount(20)" src="img/20.jpg" alt="20" />
+      <img onclick="setAmount(50)" src="img/50.jpg" alt="50" />
+      <img onclick="setAmount(100)" src="img/100.jpg" alt="100" />
+      <img onclick="setAmount(500)" src="img/500.jpg" alt="500" />
+      <img onclick="setAmount(1000)" src="img/1000.jpg" alt="1000" />
+      <img onclick="setAmount(5000)" src="img/5000.jpg" alt="5000" />
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
